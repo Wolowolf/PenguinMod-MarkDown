@@ -1,6 +1,6 @@
-import defaultOptions from './defaults'
-import InlineLexer from './inline-lexer'
-import Renderer from './renderer'
+import defaultOptions from './defaults.js'
+import InlineLexer from './inline-lexer.js'
+import Renderer from './renderer.js'
 
 /**
  * Parsing & Compiling

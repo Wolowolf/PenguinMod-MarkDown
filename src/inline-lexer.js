@@ -1,7 +1,7 @@
-import defaultOptions from './defaults'
-import Renderer from './renderer'
-import inlineRules from './inline-rules'
-import { escape } from './utils'
+import defaultOptions from './defaults.js'
+import Renderer from './renderer.js'
+import inlineRules from './inline-rules.js'
+import { escape } from './utils.js'
 
 class InlineLexer {
   constructor(links, options = defaultOptions) {

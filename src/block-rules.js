@@ -1,4 +1,4 @@
-import { merge, noop, replace } from './utils'
+import { merge, noop, replace } from './utils.js'
 
 const block = {
   newline: /^\n+/,

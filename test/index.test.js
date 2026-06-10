@@ -1,4 +1,4 @@
-import marked from '../src'
+import marked from '../src/index.js'
 
 test('headings', () => {
   const html = marked(`

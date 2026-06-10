@@ -1,9 +1,9 @@
-import { merge, escape } from './utils'
-import defaultOptions from './defaults'
-import Parser from './parser'
-import Lexer from './lexer'
-import Renderer from './renderer'
-import InlineLexer from './inline-lexer'
+import { merge, escape } from './utils.js'
+import defaultOptions from './defaults.js'
+import Parser from './parser.js'
+import Lexer from './lexer.js'
+import Renderer from './renderer.js'
+import InlineLexer from './inline-lexer.js'
 
 export {Parser, Lexer, Renderer, InlineLexer}
 export function render(src, opt) {

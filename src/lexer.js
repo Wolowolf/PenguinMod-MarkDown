@@ -1,5 +1,5 @@
-import blockRules from './block-rules'
-import defaultOptions from './defaults'
+import blockRules from './block-rules.js'
+import defaultOptions from './defaults.js'
 
 class Lexer {
   constructor(options = defaultOptions) {

@@ -1,4 +1,4 @@
-import { noop, merge, replace } from './utils'
+import { noop, merge, replace } from './utils.js'
 
 /**
  * Inline-Level Grammar
